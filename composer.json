@@ -1,0 +1,14 @@
+{
+    "require-dev": {
+        "phpspec/phpspec": "~2.0",
+        "nesbot/carbon": "~1.14"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abcham\\": "src/Abcham"
+            }
+        }
+}
